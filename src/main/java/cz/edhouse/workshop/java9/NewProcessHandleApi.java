@@ -24,7 +24,7 @@ public class NewProcessHandleApi {
         if (currentProcessInfo.command().orElse("").equals("")) {
             return;
         }
-        System.out.printf("Details for process with PID%d%n", process.getPid());
+        System.out.printf("Details for process with PID%d%n", process.pid());
         //Get the command pathname of the process
         System.out.printf("Command: %s%n", currentProcessInfo.command().orElse(""));
         //Get the arguments of the process

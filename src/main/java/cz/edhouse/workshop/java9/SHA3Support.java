@@ -15,7 +15,7 @@ import static java.lang.String.format;
 public class SHA3Support {
 
     public static void main(String... args) throws NoSuchAlgorithmException {
-        final Set<String> newAlgorithms = Set.of("SHA3-224", "SHA3-256","SHA3-384","SHA3-512");
+        final Set<String> newAlgorithms = Set.of("SHA3-224", "SHA3-256", "SHA3-384", "SHA3-512");
         newAlgorithms.forEach(SHA3Support::printHelloWorldMessageDigest);
     }
 
