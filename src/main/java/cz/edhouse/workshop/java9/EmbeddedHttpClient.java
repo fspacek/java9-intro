@@ -12,7 +12,7 @@ import java.net.URI;
  */
 public class EmbeddedHttpClient {
 
-    public static final String EDHOUSE_CZ = "http://edhouse.cz/";
+    private static final String EDHOUSE_CZ = "http://edhouse.cz/";
 
     public static void main(String... args) throws Exception {
         final HttpClient client = HttpClient.newBuilder()
